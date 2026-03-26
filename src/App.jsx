@@ -156,10 +156,10 @@ function HeroSection() {
         <video
           autoPlay loop muted playsInline
           className="w-full h-full object-cover"
-          poster="/images/tere-warga.jpg"
+          poster="/images/herpvideo.mp4"
           style={{ imageRendering: 'auto', willChange: 'transform' }}
         >
-          <source src="/herovideo.mp4" type="video/mp4" />
+          <source src="/images/herovideo.mp4" type="video/mp4" />
         </video>
       </motion.div>
 
