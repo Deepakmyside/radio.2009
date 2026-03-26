@@ -595,7 +595,7 @@ function Footer() {
   return (
     <footer className="border-t border-[#2a2a2a] py-8 px-5 md:px-10">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4">
-        <p className="text-[#d4c5a9]/20 text-xs uppercase tracking-[0.2em]">© 2024 Radio.2009</p>
+        <p className="text-[#d4c5a9]/20 text-xs uppercase tracking-[0.2em]">© 2026 Radio.2009</p>
         <p className="text-[#d4c5a9]/10 text-xs uppercase tracking-[0.15em]">Art & Visuals</p>
       </div>
     </footer>

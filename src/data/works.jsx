@@ -25,7 +25,7 @@ export const works = [
     type: "image",
     description: instaDescription("https://instagram.com/radio.2009"),
     tags: ["cover art", "music", "illustration"],
-    date: "2024",
+    date: "2026",
     rotation: 2,
   },
   {
@@ -36,7 +36,7 @@ export const works = [
     type: "image",
     description: instaDescription("https://instagram.com/radio.2009"),
     tags: ["cover art", "music", "illustration"],
-    date: "2024",
+    date: "2026",
     rotation: -3,
   },
   {
@@ -47,7 +47,7 @@ export const works = [
     type: "image",
     description: instaDescription("https://instagram.com/radio.2009"),
     tags: ["scenery", "train", "mood"],
-    date: "2024",
+    date: "2026",
     rotation: -2,
   },
   {
@@ -58,7 +58,7 @@ export const works = [
     type: "image",
     description: instaDescription("https://instagram.com/radio.2009"),
     tags: ["room", "vinyl", "music wall"],
-    date: "2024",
+    date: "2026",
     rotation: 1,
   },
   {
@@ -69,7 +69,7 @@ export const works = [
     type: "image",
     description: instaDescription("https://instagram.com/radio.2009"),
     tags: ["room", "portrait", "vinyl"],
-    date: "2024",
+    date: "2026",
     rotation: -4,
   },
   {
@@ -80,7 +80,7 @@ export const works = [
     type: "image",
     description: instaDescription("https://instagram.com/radio.2009"),
     tags: ["cover art", "landscape"],
-    date: "2024",
+    date: "2026",
     rotation: 2,
   },
   {
@@ -91,7 +91,7 @@ export const works = [
     type: "video",
     description: instaDescription("https://instagram.com/radio.2009"),
     tags: ["reel", "process", "video"],
-    date: "2024",
+    date: "2026",
     rotation: 0,
   },
   {
@@ -102,7 +102,7 @@ export const works = [
     type: "video",
     description: instaDescription("https://instagram.com/radio.2009"),
     tags: ["reel", "process", "video"],
-    date: "2024",
+    date: "2026",
     rotation: 0,
   },
 ];
