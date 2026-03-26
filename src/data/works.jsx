@@ -1,3 +1,21 @@
+import { FaInstagram } from "react-icons/fa";
+
+// 🔥 reusable description component
+const instaDescription = (link) => (
+  <>
+    Behind the scenes reel — a glimpse into the creative process of Radio.2009.{" "}
+    <a
+      href={link}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="inline-flex items-center gap-1 text-[#DC143C] hover:underline"
+    >
+      <FaInstagram size={14} />
+      Check on Instagram
+    </a>
+  </>
+);
+
 export const works = [
   {
     id: 1,
@@ -5,18 +23,18 @@ export const works = [
     category: "Covers",
     mediaUrl: "/images/tere-warga.jpg",
     type: "image",
-    description: "Cover art for Rajdeep's 'Tere Warga'. Music by The Turbo. Art & Visuals by Radio.2009.",
+    description: instaDescription("https://instagram.com/radio.2009"),
     tags: ["cover art", "music", "illustration"],
     date: "2024",
     rotation: 2,
   },
   {
-    id: 1,
+    id: 2, // ✅ fixed duplicate id
     title: "Art for Real boss",
     category: "Covers",
     mediaUrl: "/images/realboss.jpg",
     type: "image",
-    description: "Cover art for Rajdeep's 'Tere Warga'. Music by The Turbo. Art & Visuals by Radio.2009.",
+    description: instaDescription("https://instagram.com/radio.2009"),
     tags: ["cover art", "music", "illustration"],
     date: "2024",
     rotation: -3,
@@ -27,7 +45,7 @@ export const works = [
     category: "Stories",
     mediaUrl: "/images/dooron.png",
     type: "image",
-    description: "A woman watching a train pass through golden fields — a story of longing and distance.",
+    description: instaDescription("https://instagram.com/radio.2009"),
     tags: ["scenery", "train", "mood"],
     date: "2024",
     rotation: -2,
@@ -38,7 +56,7 @@ export const works = [
     category: "Illustrations",
     mediaUrl: "/images/chitt-rall.png",
     type: "image",
-    description: "A deep-red room wall filled with album posters, vinyl records, and a chandelier. Pencil-sketched character with gramophone.",
+    description: instaDescription("https://instagram.com/radio.2009"),
     tags: ["room", "vinyl", "music wall"],
     date: "2024",
     rotation: 1,
@@ -49,31 +67,40 @@ export const works = [
     category: "Illustrations",
     mediaUrl: "/images/red-room.png",
     type: "image",
-    description: "A figure sitting in a deep red room surrounded by album art, vintage TVs, candles, and speakers. The soul of Radio.2009.",
+    description: instaDescription("https://instagram.com/radio.2009"),
     tags: ["room", "portrait", "vinyl"],
     date: "2024",
     rotation: -4,
   },
-
-
   {
-    id: 8,
+    id: 6,
     title: "Pind",
     category: "Covers",
     mediaUrl: "/images/savegram2.jpg",
     type: "image",
-    description: "Square format cover for 'Pind' — the village scene with golden typography and kite.",
+    description: instaDescription("https://instagram.com/radio.2009"),
     tags: ["cover art", "landscape"],
     date: "2024",
     rotation: 2,
   },
   {
-    id: 9,
+    id: 7,
     title: "Radio.2009 Reel",
     category: "Videos",
-    mediaUrl: "/herovideo.mp4",
+    mediaUrl: "/images/herovideo.mp4",
     type: "video",
-    description: "Behind the scenes reel — a glimpse into the creative process of Radio.2009.",
+    description: instaDescription("https://instagram.com/radio.2009"),
+    tags: ["reel", "process", "video"],
+    date: "2024",
+    rotation: 0,
+  },
+  {
+    id: 8,
+    title: "Punjab Reel",
+    category: "Videos",
+    mediaUrl: "/images/punjab.mp4",
+    type: "video",
+    description: instaDescription("https://instagram.com/radio.2009"),
     tags: ["reel", "process", "video"],
     date: "2024",
     rotation: 0,

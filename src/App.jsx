@@ -284,12 +284,11 @@ function AboutSection() {
               I translate thoughts into visuals,
               and emotions into motion.
               <br></br>
+              <br></br>
               Every piece I create carries a story —
               sometimes loud, sometimes silent,
               but always felt.
 
-              From sketches to animations,
-              this is where ideas come alive.
             </p>
           </FadeSlide>
 
