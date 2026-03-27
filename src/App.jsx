@@ -193,7 +193,7 @@ function HeroSection() {
           <h1 className="text-[clamp(4rem,15vw,12rem)] leading-[0.85] tracking-[0.05em] text-white uppercase" style={{ fontFamily: "'Bebas Neue', sans-serif" }}>
             Radio
             <br />
-            <span className="text-[#D4AF37]">.2009</span>
+            <span className="text-[#ffb701]">.2009</span>
           </h1>
           <div className="mt-6 flex items-center justify-center gap-4">
             <div className="w-16 h-[1px] bg-[#DC143C]/50" />
