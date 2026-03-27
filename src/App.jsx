@@ -193,12 +193,12 @@ function HeroSection() {
           <h1 className="text-[clamp(4rem,15vw,12rem)] leading-[0.85] tracking-[0.05em] text-white uppercase" style={{ fontFamily: "'Bebas Neue', sans-serif" }}>
             Radio
             <br />
-            <span className="text-[#DC143C]">.2009</span>
+            <span className="text-[#D4AF37]">.2009</span>
           </h1>
           <div className="mt-6 flex items-center justify-center gap-4">
             <div className="w-16 h-[1px] bg-[#DC143C]/50" />
             <p className="text-sm md:text-base text-[#d4c5a9]/70 tracking-[0.15em]" style={{ fontFamily: "'Caveat', cursive", fontSize: 'clamp(1.2rem, 3vw, 1.8rem)' }}>
-              Stories told through ink & imagination
+             “𝚁𝙰𝙳𝙸𝙾.2009” is the frequency where thoughts become art.
             </p>
             <div className="w-16 h-[1px] bg-[#DC143C]/50" />
           </div>
@@ -280,10 +280,9 @@ function AboutSection() {
             <p className="text-[#d4c5a9]/70 text-base md:text-lg leading-relaxed max-w-lg">
               I’m Karan — a digital illustrator from Punjab.
 
-              I don’t just draw.
-              I translate thoughts into visuals,
+              Radio.2009 don’t just draw.
+              he translate thoughts into visuals,
               and emotions into motion.
-              <br></br>
               <br></br>
               Every piece I create carries a story —
               sometimes loud, sometimes silent,
@@ -292,12 +291,6 @@ function AboutSection() {
             </p>
           </FadeSlide>
 
-          <FadeSlide delay={0.3}>
-            <p className="text-[#d4c5a9]/50 text-base leading-relaxed max-w-lg">
-              Deep reds. Pencil sketches. Vinyl records. Vintage radios. Gramophone needles.
-              Album posters on walls. That's my world. That's Radio.2009.
-            </p>
-          </FadeSlide>
 
           <FadeSlide delay={0.35}>
             <div className="flex flex-wrap gap-3 mt-4">
@@ -318,10 +311,10 @@ function AboutSection() {
    WORK / PORTFOLIO SECTION — Album Wall
    ====================================================== */
 function WorkSection() {
-  const [activeFilter, setActiveFilter] = useState('All');
+  const [activeFilter, setActiveFilter] = useState('Both');
   const [selectedWork, setSelectedWork] = useState(null);
 
-  const filtered = activeFilter === 'All' ? works : works.filter(w => w.category === activeFilter);
+  const filtered = activeFilter === 'Both' ? works : works.filter(w => w.category === activeFilter);
 
   return (
     <section id="work" className="relative py-24 md:py-32 px-5 md:px-10 overflow-hidden">
