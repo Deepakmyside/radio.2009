@@ -84,7 +84,7 @@ function Navbar() {
         <div className="flex justify-between items-center max-w-7xl mx-auto">
           <button onClick={() => scrollTo('hero')} className="group">
             <span className="text-2xl md:text-3xl font-bold tracking-[0.15em] uppercase" style={{ fontFamily: "'Bebas Neue', sans-serif" }}>
-              Radio<span className="text-[#DC143C]">.2009</span>
+              Radio<span className="text-[#ffb701]">.2009</span>
             </span>
           </button>
 
